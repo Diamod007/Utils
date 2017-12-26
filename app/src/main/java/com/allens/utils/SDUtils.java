@@ -75,7 +75,7 @@ public class SDUtils {
      * 向ＳＤ卡９大共有目录保存数据
      *
      * @param data     需要保存的数据
-     * @param type     　区分９大共有目录的type
+     * @param type     区分９大共有目录的type
      * @param fileName 另存为的文件名称
      * @return
      */
@@ -118,12 +118,10 @@ public class SDUtils {
      *
      * @param context  　上下文，用来找到storage/sdcard0/Android/data/packageName/files
      * @param data     需要保存的数据
-     * @param type     　文件加类型
      * @param fileName 　另存为的文件名名称
      * @return
      */
-    public static boolean saveFileToExternalFileDir(Context context, byte[] data,
-                                                    String type, String fileName) {
+    public static boolean saveFileToExternalFileDir(Context context, byte[] data, String fileName) {
         if (isSDCardMounted()) {
             BufferedOutputStream bos = null;
             File fileDir = context.getExternalFilesDir(null);
