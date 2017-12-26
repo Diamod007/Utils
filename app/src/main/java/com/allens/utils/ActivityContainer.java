@@ -6,6 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ *
+ * 完美退出 APP 的工具类
  * Created by Administrator on 2016/10/19.
  */
 

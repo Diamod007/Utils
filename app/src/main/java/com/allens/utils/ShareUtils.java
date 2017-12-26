@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
+ * SharedPreferences 工具类
+ * <p>
  * Created by allens on 2017/6/23.
  */
 
